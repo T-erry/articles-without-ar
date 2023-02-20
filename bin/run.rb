@@ -19,10 +19,10 @@ author3.add_article(magazine3, "Breaking News: COVID Vaccines for Kids Approved"
 author3.add_article(magazine3, "China provinces top list of regions at risk from climate change")
 
 # retrieve information using instance and class methods
-puts "Author 1's name is #{author1.name}"
-puts "Magazine 2's category is #{magazine2.category}"
+puts "Author 3's name is #{author3.name}"
+puts "Magazine 3's category is #{magazine3.category}"
 puts "The first magazine with the name 'Vogue' is #{Magazine.find_by_name("Vogue").name}"
-puts "Author 1's contributing topic areas are #{author1.topic_areas}"
-puts "The titles of all articles for magazine 1 are: #{magazine1.article_titles}"
-puts "Authors who have written more than 2 articles for magazine 2 are: #{magazine2.contributing_authors.map(&:name)}"
+puts "Author 3's contributing topic areas are #{author3.topic_areas}"
+puts "The titles of all articles for magazine 3 are: #{magazine3.article_titles}"
+puts "Authors who have written more than 2 articles for magazine 3 are: #{magazine3.contributing_authors.map(&:name)}"
 
